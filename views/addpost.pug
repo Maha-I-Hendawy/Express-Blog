@@ -1,0 +1,14 @@
+extends layout.pug
+block content
+ h1 Add Post
+ form(method="post")
+   label Title: 
+   input(type="text" name="title")
+   br
+   label Content: 
+   textarea(name="content")
+   br
+   label Author: 
+   input(type="text" name="author")
+   br
+   input(type="submit" value="Add")
